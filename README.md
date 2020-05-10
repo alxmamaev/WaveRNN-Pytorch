@@ -88,7 +88,7 @@ This function processes raw wav files into corresponding mel-spectrogram and wav
 
 Example usage:
 ```
-python3 preprocess.py --output_dir training_data /path/to/my/wav/files 
+python3 preprocess.py --output-dir training_data /path/to/my/wav/files 
 ```
 This will process all the `.wav` files in the folder `/path/to/my/wav/files` and save them in the default local directory called `data_dir`.
 
